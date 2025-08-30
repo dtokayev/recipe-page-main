@@ -27,10 +27,16 @@ body {
 
 h1 {
   color: var(--stone-900);
+  font-weight: 400;
+  font-size: 2.2em;
+  line-height: 1.1em;
 }
 
 h2 {
   color: var(--brown-800);
+  font-weight: 400;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
 }
 
 h1, h2 {
@@ -42,15 +48,17 @@ li, th, p {
 }
 
 hr {
-  color: var(--stone-150);
+  color: rgba(0, 0, 0, 0.2);
+  margin-top: 2em;
 }
 
-ul, ol, p {
-  margin-bottom: 20px;
+p {
+  margin-bottom: 1.6em;
 }
 
 ul, ol {
-  padding: 1.5em;
+  padding: 0;
+  margin: 0 1em;
 }
 
 ul li::marker,
@@ -60,12 +68,12 @@ ol li::marker {
   margin-right: 1em;
 }
 
-li {
+li, p {
   line-height: 1.6em;
 }
 
 li + li {
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 .list-space {
@@ -82,7 +90,7 @@ li + li {
 .card {
   background-color: var(--white);
   padding: 2em;
-  max-width: 600px;
+  max-width: 650px;
   border-radius: 24px;
   margin: 0 auto;
 }
@@ -94,17 +102,20 @@ li + li {
 
 .bold {
   color: var(--stone-600);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .prep-time {
   background-color: var(--rose-50);
   border-radius: 12px;
-  padding: 0.7em 1.5em;
+  padding: 1.5em 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .prep-time h3 {
   color: var(--rose-800);
+  font-size: 1.25em;
+  margin: 0 0 0.7em 0;
 }
 
 th {
@@ -113,7 +124,7 @@ th {
 
 td {
   color: var(--brown-800);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 700px) {
