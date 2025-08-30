@@ -50,6 +50,30 @@ ul, ol, p {
   margin-bottom: 20px;
 }
 
+ul, ol {
+  padding: 1.5em;
+}
+
+ul li::marker,
+ol li::marker {
+  color: var(--brown-800);
+  font-weight: 600;
+  margin-right: 1em;
+}
+
+li {
+  line-height: 1.6em;
+}
+
+li + li {
+  margin-top: 1em;
+}
+
+.list-space {
+  margin-left: 1em;
+  display: block;
+}
+
 .container {
   background-color: var(--stone-100);
   padding: 6em 0;
